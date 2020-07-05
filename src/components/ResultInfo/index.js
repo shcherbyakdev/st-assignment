@@ -13,8 +13,8 @@ const ResultInfo = ({ result }) => {
 
   return (
     <div className={styles.wrapper}>
-      <span>Result: </span>
-      <span>H = {`'${result.H}'`}</span>
+      <span className={styles.text}>Result: </span>
+      <span className={styles.text}>H = {`'${result.H}'`}</span>
       <span>K = {result.K}</span>
     </div>
   );
