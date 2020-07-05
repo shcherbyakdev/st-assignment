@@ -2,10 +2,10 @@
 
 Implementation of Sprout Therapy Assignment
 
-The task was salved with the help of React for view and JS. Also the are some styles to make ui friendly for users. I chose React because it allows to start develop very quickly and easily make a ui for a task without spending time to setup infrastructure for ui.
-ESLint and Prettier were also configured to comply code style and formatting.
+The task was salved with the help of React for view and JS. Also the are some styles to make ui friendly for users. I chose React because it allows to start develop very quickly and easily make a ui for a task without spending time to setup infrastructure.
+  ESLint and Prettier were also configured to comply code style and formatting.
 
-As for the implementation, it seemed to me that the decision based on the inheritance of classes will be quite concise and easy to scale. And also does not require the formation of many nested conditions.
+As for the implementation, it seemed to me that the decision based on the inheritance of classes will be quite concise and easy to scale. And it also does not require the formation of many nested conditions so that's why I choose. 
 
 ## Quick start
 
@@ -17,7 +17,7 @@ As for the implementation, it seemed to me that the decision based on the inheri
 
 - Start the server: `npm run start` or `yarn start`
 
-- Views are on: `localhost:3000`
+- Go to: `localhost:3000`
 
 ## Testing
 
@@ -27,6 +27,6 @@ $ npm run test
 
 ## Usage
 
-Assignment implemented as browser based application and may run within the browser.
+Assignment implemented as browser based application.
 
 ![alt text](https://user-images.githubusercontent.com/22860759/86539984-c5101d80-bf09-11ea-897a-3fa49e52e504.png)
