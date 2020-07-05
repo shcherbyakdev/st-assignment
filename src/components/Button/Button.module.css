@@ -13,3 +13,8 @@
 .styledButton:hover {
   cursor: pointer;
 }
+
+.disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
