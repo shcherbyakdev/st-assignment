@@ -1,0 +1,7 @@
+.box {
+  display: grid;
+  align-items: center;
+  background-color: #fff;
+  padding: 2rem;
+  min-width: 40rem;
+}
