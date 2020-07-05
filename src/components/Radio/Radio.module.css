@@ -1,0 +1,20 @@
+.wrapper {
+  margin-right: 1.4rem;
+  align-items: center;
+  display: flex;
+}
+
+.wrapper:last-child {
+  margin-right: 0;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.input {
+  cursor: pointer;
+}

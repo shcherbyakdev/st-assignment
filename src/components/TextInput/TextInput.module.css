@@ -1,0 +1,21 @@
+.wrapper {
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 1.2rem;
+}
+
+.input {
+  padding: 0.3rem;
+  max-width: 100px;
+}
