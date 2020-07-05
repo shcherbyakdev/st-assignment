@@ -1,6 +1,7 @@
 .wrapper {
   margin-bottom: 0.5rem;
   display: flex;
+  justify-content: space-between;
 }
 
 .wrapper:last-child {
@@ -15,7 +16,26 @@
   margin-right: 1.2rem;
 }
 
+.inputWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
 .input {
   padding: 0.3rem;
   max-width: 100px;
+}
+
+.error {
+  position: absolute;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: red;
+  right: 5px;
+  bottom: 5px;
+}
+
+.errorHighlight {
+  border: 1px solid red;
 }

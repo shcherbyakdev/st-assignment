@@ -19,7 +19,14 @@ function App() {
   const [result, setResult] = useState(null);
 
   // the button is enabled only when all fields are filled
-  const isEnabledButton = a !== null && b !== null && c !== null && d && e && f;
+  const isEnabledButton =
+    selectedMode !== null &&
+    a !== null &&
+    b !== null &&
+    c !== null &&
+    d &&
+    e &&
+    f;
 
   const handleAValueChange = (value) => {
     const isPublished = value === "true";
@@ -54,6 +61,11 @@ function App() {
     setResult(null);
   };
 
+  const handleChangeSelectedMode = (value) => {
+    setSelectedMode(value);
+    setResult(null);
+  };
+
   const handleResultClick = useCallback(() => {
     if (selectedMode === MODES.BASE) {
       const base = new Base(a, b, c, Number(d), Number(e), Number(f));
@@ -74,7 +86,7 @@ function App() {
   return (
     <div className="app-wrapper">
       <Box>
-        <ModeSelector mode={selectedMode} onChange={setSelectedMode} />
+        <ModeSelector mode={selectedMode} onChange={handleChangeSelectedMode} />
         <Parameters
           aValue={a}
           bValue={b}

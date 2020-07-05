@@ -1,5 +1,6 @@
 import React from "react";
 
+import { isFloat } from "utils";
 import Radio from "components/Radio";
 import TextInput from "components/TextInput";
 import styles from "./Parameters.module.css";
@@ -65,21 +66,24 @@ const Parameters = ({
           name="d"
           placeholder="Type D..."
           onChange={handleDValueChange}
-          label="D"
+          label="D (float)"
+          validateFn={isFloat}
         />
         <TextInput
           type="number"
           name="e"
           placeholder="Type E..."
           onChange={handleEValueChange}
-          label="E"
+          label="E (Int)"
+          validateFn={Number.isInteger}
         />
         <TextInput
           type="number"
           name="f"
           placeholder="Type F..."
           onChange={handleFValueChange}
-          label="F"
+          label="F (Int)"
+          validateFn={Number.isInteger}
         />
       </div>
     </div>
