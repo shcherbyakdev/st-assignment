@@ -37,6 +37,8 @@ const Parameters = ({
   handleDValueChange,
   handleEValueChange,
   handleFValueChange,
+  setValidationError,
+  validationError,
 }) => {
   return (
     <div className={styles.wrapper}>
@@ -68,6 +70,8 @@ const Parameters = ({
           onChange={handleDValueChange}
           label="D (float)"
           validateFn={isFloat}
+          setValidationError={setValidationError}
+          validationError={validationError}
         />
         <TextInput
           type="number"
@@ -76,6 +80,8 @@ const Parameters = ({
           onChange={handleEValueChange}
           label="E (Int)"
           validateFn={Number.isInteger}
+          setValidationError={setValidationError}
+          validationError={validationError}
         />
         <TextInput
           type="number"
@@ -84,6 +90,8 @@ const Parameters = ({
           onChange={handleFValueChange}
           label="F (Int)"
           validateFn={Number.isInteger}
+          setValidationError={setValidationError}
+          validationError={validationError}
         />
       </div>
     </div>
