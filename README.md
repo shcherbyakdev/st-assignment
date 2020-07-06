@@ -1,6 +1,10 @@
 # Sprout Therapy Assignment
 
-Implementation of Sprout Therapy Assignment
+![CI/CD](https://github.com/st-assignment/react-workflow-gh-actions/workflows/CI/CD/badge.svg)
+
+[![codecov](https://codecov.io/gh/st-assignment/react-workflow-gh-actions/branch/master/graph/badge.svg)](https://codecov.io/gh/st-assignment/react-workflow-gh-actions)
+
+Implementation of Sprout Therapy Assignment 
 
 The task was salved with the help of React for view and JS. Also the are some styles to make ui friendly for users. I chose React and create-react-app as boilerplate because it allows to start develop very quickly and easily make a ui for a task without spending time to setup infrastructure.
   ESLint and Prettier were also configured to comply code style and formatting.
