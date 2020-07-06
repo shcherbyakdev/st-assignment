@@ -33,4 +33,6 @@ $ npm run test
 
 Assignment implemented as browser based application.
 
+GH pages - https://shcherbyakdev.github.io/st-assignment
+
 ![alt text](https://user-images.githubusercontent.com/22860759/86539984-c5101d80-bf09-11ea-897a-3fa49e52e504.png)
