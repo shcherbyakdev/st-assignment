@@ -1,6 +1,6 @@
 # Sprout Therapy Assignment
 
-![CI/CD](https://github.com/st-assignment/react-workflow-gh-actions/workflows/CI/CD/badge.svg)
+![CI/CD](https://github.com/shcherbyakdev/st-assignment/react-workflow-gh-actions/workflows/CI/CD/badge.svg)
 
 [![codecov](https://codecov.io/gh/st-assignment/react-workflow-gh-actions/branch/master/graph/badge.svg)](https://codecov.io/gh/st-assignment/react-workflow-gh-actions)
 
