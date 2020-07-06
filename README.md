@@ -2,7 +2,7 @@
 
 ![CI/CD](https://github.com/shcherbyakdev/st-assignment/workflows/CI/CD/badge.svg)
 
-[![codecov](https://codecov.io/gh/st-assignment/react-workflow-gh-actions/branch/master/graph/badge.svg)](https://codecov.io/gh/st-assignment/react-workflow-gh-actions)
+[![codecov](https://codecov.io/gh/shcherbyakdev/st-assignment/branch/master/graph/badge.svg)](https://codecov.io/gh/shcherbyakdev/st-assignment)
 
 Implementation of Sprout Therapy Assignment
 
